@@ -8,3 +8,9 @@ A personal study tracker for my MIT OpenCourseWare intensive sprint covering Pyt
 | ---------- | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
 | MIT 6.100L | Introduction to CS and Programming Using Python (Fall 2022) | [ocw.mit.edu](https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/) |
 | MIT 6.092  | Introduction to Programming in Java (IAP 2010)              | [ocw.mit.edu](https://ocw.mit.edu/courses/6-092-introduction-to-programming-in-java-january-iap-2010/)       |
+
+### Commiting work into GitHub
+
+1. git add .
+2. git commit -m "describe what you changed"
+3. git push
