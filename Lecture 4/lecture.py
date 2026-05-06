@@ -1,28 +1,28 @@
 #Loops, Guess and Check, Binary
-# total = 0
-# for i in range(5,6):
-#     if i%2==0:
-#         total+=1
-#         print(i)
-# print(f"Total amount of even numbers is {total} ")
+total = 0
+for i in range(5,6):
+    if i%2==0:
+        total+=1
+        print(i)
+print(f"Total amount of even numbers is {total} ")
 
 #count unique letters in a string
-# s = input("Enter a string: ")
-# seen = ''
-# for char in s:
-#     if char not in seen:
-#         seen += char
-# print(len(seen))
+s = input("Enter a string: ")
+seen = ''
+for char in s:
+    if char not in seen:
+        seen += char
+print(len(seen))
 
 #find a secret number
-# found = False
-# secret_num = eval(input("Enter a secret number: "))
-# for i in range(1,11):
-#     if i == secret_num:
-#         print(f"Secret number is {i}.")
-#         found = True
-# if not found:
-#     print("Secret number has not been found.")
+found = False
+secret_num = eval(input("Enter a secret number: "))
+for i in range(1,11):
+    if i == secret_num:
+        print(f"Secret number is {i}.")
+        found = True
+if not found:
+    print("Secret number has not been found.")
 
 #Binary search
 def binary_search(list,item):
